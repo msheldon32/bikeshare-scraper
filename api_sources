@@ -1,2 +1,6 @@
-BayWheels,https://gbfs.baywheels.com/gbfs/gbfs.json
-Velib,https://velib-metropole-opendata.smoove.pro/opendata/Velib_Metropole/gbfs.json
+BayWheels,https://gbfs.baywheels.com/gbfs/gbfs.json,San Francisco,USA
+Velib,https://velib-metropole-opendata.smoove.pro/opendata/Velib_Metropole/gbfs.json,Paris,France
+citibike,http://gbfs.citibikenyc.com/gbfs/gbfs.json,New York,USA
+bixi,https://gbfs.velobixi.com/gbfs/gbfs.json,Montreal,Canada
+bysykkel,https://gbfs.urbansharing.com/oslobysykkel.no/gbfs.json,Oslo,Norway
+VLille,https://transport.data.gouv.fr/gbfs/vlille/gbfs.json,Lille,France
