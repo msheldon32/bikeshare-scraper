@@ -28,7 +28,7 @@ def pull_data():
         for row in api_reader:
             if row[0] not in all_folders:
                 os.mkdir(row[0])
-            row_thread = threading.Thread(target=pull_gbfs, args=row, daemon=True)
+            row_thread = threading.Thread(target=pull_gbfs, args=row[:2], daemon=True)
             row_thread.start()
 
 if __name__=="__main__":
