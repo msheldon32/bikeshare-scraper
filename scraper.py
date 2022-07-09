@@ -13,6 +13,7 @@ frequency = 15
 
 def pull_gbfs(name, url):
     print(f"name: {name}, url: {url}")
+    print("ls")
     
     schema = requests.get(url).json()["data"]
     schema = list(schema.values())[0]["feeds"]
